@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        :root {
+            --mycolor: black;
+            --font-size:62.5%;
+        }
+        h2 {
+            color: var (mycolor);
+            font-size: calc(var(--font-size)*3);
+        }
+        p {
+            background: var (--mycolor);
+            padding: 5px; 
+        }
+        p:nth-child(2) {
+            background-color: aquamarine;
+        } /* selector */
+        </style>
+</head>
+<body>
+    <h2>Hello    </h2>
+    <main>
+    <p>Body</p> <!-- ctrl + alt + arrow key to select various -->
+    <p>Body</p>
+    <p>Body</p>
+    <p>Body</p>
+    <p>Body</p>
+    <p>Body</p>
+    <p>Body</p>
+    <p>Body</p>
+    <p>Body</p>
+    <p>Body</p>
+    </main>
+
+</body>
+</html>
